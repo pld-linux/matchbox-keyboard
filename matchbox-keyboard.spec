@@ -3,7 +3,7 @@
 %bcond_without	cairo	# use Xft backend instead of Cairo
 #
 Summary:	On-screen virtual keyboard
-Summary(pl):	Wirtualna klawiatura na ekranie
+Summary(pl.UTF-8):   Wirtualna klawiatura na ekranie
 Name:		matchbox-keyboard
 Version:	0.1
 Release:	1
@@ -32,14 +32,14 @@ phones to tablet PCs running X Window System.
 It aims to 'just work' supporting localised, easy to write XML layout
 configuration files.
 
-%description -l pl
+%description -l pl.UTF-8
 matchbox-keyboard to "wirtualna" lub "programowa" klawiatura na
-ekranie. Dzia³a dobrze na ró¿nych urz±dzeniach z ekranem dotykowym od
-telefonów komórkowych do komputerów z tabletami z dzia³aj±cym systemem
+ekranie. DziaÅ‚a dobrze na rÃ³Å¼nych urzÄ…dzeniach z ekranem dotykowym od
+telefonÃ³w komÃ³rkowych do komputerÃ³w z tabletami z dziaÅ‚ajÄ…cym systemem
 X Window.
 
-Program ma na celu "po prostu dzia³aæ", obs³uguj±c zlokalizowane,
-³atwe do napisania pliki XML konfiguruj±ce uk³ad klawiatury.
+Program ma na celu "po prostu dziaÅ‚aÄ‡", obsÅ‚ugujÄ…c zlokalizowane,
+Å‚atwe do napisania pliki XML konfigurujÄ…ce ukÅ‚ad klawiatury.
 
 %prep
 %setup -q
