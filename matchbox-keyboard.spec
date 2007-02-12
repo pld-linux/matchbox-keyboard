@@ -3,7 +3,7 @@
 %bcond_without	cairo	# use Xft backend instead of Cairo
 #
 Summary:	On-screen virtual keyboard
-Summary(pl.UTF-8):   Wirtualna klawiatura na ekranie
+Summary(pl.UTF-8):	Wirtualna klawiatura na ekranie
 Name:		matchbox-keyboard
 Version:	0.1
 Release:	1
