@@ -9,11 +9,11 @@ Version:	0.1
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
-Source0:	http://projects.o-hand.com/matchbox/sources/matchbox-keyboard/%{version}/%{name}-%{version}.tar.bz2
+Source0:	http://downloads.yoctoproject.org/releases/matchbox/matchbox-keyboard/%{version}/%{name}-%{version}.tar.bz2
 # Source0-md5:	50940321d59fee23b38a4941100abf25
 Patch0:		%{name}-desktop.patch
 Patch1:		%{name}-ru.patch
-URL:		http://projects.o-hand.com/matchbox/
+URL:		https://www.yoctoproject.org/software-item/matchbox/
 BuildRequires:	expat-devel >= 1.95
 BuildRequires:	libfakekey-devel >= 0.1
 BuildRequires:	pkgconfig
